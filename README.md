@@ -1,2 +1,2 @@
-# Spring
-Spring系列项目demo
+# springMVC
+springMVC项目demo
