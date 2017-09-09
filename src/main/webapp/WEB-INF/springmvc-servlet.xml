@@ -11,6 +11,11 @@
       http://www.springframework.org/schema/mvc
       http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd">
       
+      <!-- 启用默认handler,解决访问静态资源问题 -->
+      <mvc:default-servlet-handler/>
+      <!-- 启用 annotation driven 处理注解请求-->
+      <mvc:annotation-driven/>
+      
       <context:component-scan base-package="org.code0.springmvc"/>
       <context:annotation-config/>
       <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
