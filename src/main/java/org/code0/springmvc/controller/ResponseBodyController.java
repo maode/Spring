@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**  
  * @Title: ResponseBodyController.java
  * @Package org.code0.springmvc.controller
- * @Description: ResponseBody Demo
+ * @Description: ResponseBody Demo <br/>
+ * 如果您使用 @ResponseBody 注释到方法， spring 将尝试转换它的返回值，
+ * 并自动写入到HTTP响应。在这种情况下，并不需要一个特定的视图。
  * @author Code0   
  * @date 2017年9月7日 下午12:59:35 
  */

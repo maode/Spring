@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**  
  * @Title: PathVariableController.java
  * @Package org.code0.springmvc.controller
- * @Description: PathVariable Demo
+ * @Description: PathVariable Demo <br/>
+ * 使用@PathVariable注释将一个方法参数绑定到一个URI模板变量的值
  * @author Code0   
  * @date 2017年9月7日 下午12:06:01 
  */

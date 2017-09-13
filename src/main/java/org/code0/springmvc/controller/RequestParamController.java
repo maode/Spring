@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**  
  * @Title: RequestParamController.java
  * @Package org.code0.springmvc.controller
- * @Description: RequestParam Demo
+ * @Description: RequestParam Demo <br/>
+ * 使用@RequestParam 注解将请求参数绑定到控制器的方法参数
  * @author Code0   
  * @date 2017年9月7日 上午11:19:55 
  */
