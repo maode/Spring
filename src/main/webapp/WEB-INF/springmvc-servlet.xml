@@ -12,6 +12,8 @@
 
 	<!-- 启用默认handler,解决访问静态资源问题 -->
 	<mvc:default-servlet-handler />
+	<!-- 指定静态资源访问路径和资源文件存放路径 -->
+<!-- 	<mvc:resources mapping="/static/**" location="/static/" /> -->
 	<!-- 启用 annotation driven 处理注解请求 -->
 	<mvc:annotation-driven />
 	<!-- 注解包扫描 -->
